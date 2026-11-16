@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O impacto das telas na sociedade</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #222; background: #f5f5f5; line-height: 1.6; }
+    header { background: #26364a; color: white; text-align: center; padding: 28px 15px; }
+    header h1 { margin: 0 0 7px; font-size: 29px; }
+    header p { margin: 0; }
+    nav { background: #dfe5eb; text-align: center; padding: 12px; }
+    nav a { display: inline-block; margin: 4px 12px; color: #1e354d; font-weight: bold; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 960px; margin: 25px auto; padding: 0 16px; }
+    section { background: white; border: 1px solid #ddd; border-radius: 6px; padding: 25px; margin-bottom: 18px; }
+    h2 { margin: 0 0 12px; color: #26364a; font-size: 23px; }
+    h3 { color: #26364a; margin: 10px 0; }
+    p { margin: 9px 0; }
+    .duas-colunas { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .caixa { background: #f1f4f7; padding: 17px; border-radius: 5px; }
+    .caixa:nth-child(2) { background: #edf2fa; }
+    ul { padding-left: 22px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th, td { border: 1px solid #bbb; padding: 10px; text-align: left; }
+    th { background: #e8edf2; }
+    .pergunta { border-bottom: 1px solid #ddd; padding: 12px 0; }
+    .pergunta label { display: block; padding: 3px 0; cursor: pointer; }
+    button { margin-top: 15px; padding: 10px 18px; color: white; background: #26364a; border: 0; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #415d7c; }
+    #resultado { margin-top: 16px; padding: 12px; background: #edf2fa; border-left: 4px solid #26364a; display: none; }
+    footer { background: #26364a; color: white; text-align: center; padding: 18px; }
+    @media (max-width: 600px) { .duas-colunas { grid-template-columns: 1fr; } table { font-size: 13px; } th, td { padding: 7px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>O impacto das telas na sociedade</h1>
+    <p>Da televisão e do cinema até os celulares e as redes sociais</p>
+  </header>
+
+  <nav aria-label="Menu principal">
+    <a href="#introducao">Introdução</a>
+    <a href="#comparacao">Comparação</a>
+    <a href="#politica">Política</a>
+    <a href="#quiz">Questionário</a>
+  </nav>
+
+  <main>
+    <section id="introducao">
+      <h2>Introdução</h2>
+      <p>As telas fazem parte da nossa vida há muito tempo. Antes, era comum as famílias se reunirem para assistir à televisão, ou as pessoas irem juntas ao cinema. Hoje, muita gente assiste a vídeos, conversa e recebe notícias pelo próprio celular.</p>
+      <p>Essas mudanças facilitaram o acesso à informação, mas também mudaram a forma como convivemos e pensamos sobre os acontecimentos.</p>
+    </section>
+
+    <section id="comparacao">
+      <h2>Grandes telas e pequenas telas</h2>
+      <div class="duas-colunas">
+        <div class="caixa">
+          <h3>📺 Cinema e televisão</h3>
+          <p>Durante boa parte do século XX, a TV e o cinema foram importantes para o entretenimento e para a divulgação de notícias.</p>
+          <ul>
+            <li>As pessoas assistiam a muitos programas em grupo.</li>
+            <li>Era comum conversar no dia seguinte sobre o mesmo programa.</li>
+            <li>Havia menos opções de canais e horários.</li>
+          </ul>
+        </div>
+        <div class="caixa">
+          <h3>📱 Celular e internet</h3>
+          <p>Com a internet e os smartphones, cada pessoa pode escolher o que assistir e quando assistir.</p>
+          <ul>
+            <li>É possível acessar conteúdos a qualquer hora.</li>
+            <li>As redes sociais recomendam vídeos diferentes para cada usuário.</li>
+            <li>Podemos falar com pessoas de outros lugares, mas também passar menos tempo conversando pessoalmente.</li>
+          </ul>
+        </div>
+      </div>
+      <table>
+        <thead><tr><th>Assunto</th><th>Antes: TV e cinema</th><th>Hoje: celular e internet</th></tr></thead>
+        <tbody>
+          <tr><td>Conteúdo</td><td>Mais parecido para todos</td><td>Personalizado para cada pessoa</td></tr>
+          <tr><td>Horário</td><td>Programação definida</td><td>Acesso a qualquer momento</td></tr>
+          <tr><td>Participação</td><td>Público principalmente espectador</td><td>Público também cria e comenta</td></tr>
+          <tr><td>Convivência</td><td>Experiências muitas vezes coletivas</td><td>Uso muitas vezes individual</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="politica">
+      <h2>O que isso tem a ver com política?</h2>
+      <p>Antigamente, os jornais e os telejornais tinham muita influência sobre quais assuntos chegavam ao público. Hoje, qualquer pessoa pode publicar opiniões, vídeos e notícias na internet.</p>
+      <p>Isso ajuda mais pessoas a participar das discussões, mas também facilita a circulação de informações falsas. Outro problema são as <strong>bolhas de informação</strong>: quando vemos quase sempre conteúdos parecidos com aquilo de que já gostamos ou com que concordamos.</p>
+      <p>Por isso, é importante conferir as fontes, conhecer opiniões diferentes e não acreditar em tudo que aparece nas redes sociais.</p>
+    </section>
+
+    <section id="quiz">
+      <h2>Questionário: como você usa as telas?</h2>
+      <p>Responda às perguntas e veja uma reflexão sobre seus hábitos. Não existe resposta certa ou errada.</p>
+      <form id="formulario">
+        <div class="pergunta">
+          <p><strong>1. Qual tela você usa mais?</strong></p>
+          <label><input type="radio" name="tela" value="Celular" required> Celular</label>
+          <label><input type="radio" name="tela" value="Televisão"> Televisão</label>
+          <label><input type="radio" name="tela" value="Computador"> Computador</label>
+        </div>
+        <div class="pergunta">
+          <p><strong>2. Onde você costuma ver notícias?</strong></p>
+          <label><input type="radio" name="noticias" value="Redes sociais" required> Redes sociais</label>
+          <label><input type="radio" name="noticias" value="Jornais e sites"> Jornais e sites de notícias</label>
+          <label><input type="radio" name="noticias" value="Televisão"> Televisão</label>
+        </div>
+        <div class="pergunta">
+          <p><strong>3. Você costuma conferir se uma notícia é verdadeira?</strong></p>
+          <label><input type="radio" name="confere" value="sim" required> Sim</label>
+          <label><input type="radio" name="confere" value="as-vezes"> Às vezes</label>
+          <label><input type="radio" name="confere" value="nao"> Não</label>
+        </div>
+        <button type="submit">Ver resultado</button>
+      </form>
+      <div id="resultado" role="status" aria-live="polite"></div>
+    </section>
+
+    <section>
+      <h2>Conclusão</h2>
+      <p>A televisão e o cinema ajudaram a criar experiências compartilhadas, enquanto a internet trouxe mais liberdade para escolher e produzir conteúdos. Nenhuma dessas mudanças é totalmente boa ou ruim. O importante é usar as tecnologias com responsabilidade e procurar informações confiáveis.</p>
+    </section>
+
+    <section>
+      <h2>Fontes para pesquisa</h2>
+      <p><a href="https://www.ibge.gov.br/" target="_blank" rel="noopener noreferrer">IBGE</a> — informações sobre o acesso à internet no Brasil.</p>
+      <p><a href="https://www.cgi.br/" target="_blank" rel="noopener noreferrer">Comitê Gestor da Internet no Brasil</a> — estudos sobre o uso da internet.</p>
+      <p><a href="https://www.unesco.org/" target="_blank" rel="noopener noreferrer">UNESCO</a> — materiais sobre educação e informação.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Atividade de História — Política e Antipolítica</p>
+  </footer>
+
+  <script>
+    const formulario = document.getElementById('formulario');
+    const resultado = document.getElementById('resultado');
+
+    formulario.addEventListener('submit', function(evento) {
+      evento.preventDefault();
+      const respostas = new FormData(formulario);
+      const tela = respostas.get('tela');
+      const noticias = respostas.get('noticias');
+      const confere = respostas.get('confere');
+      let mensagem = 'Você usa mais ' + tela.toLowerCase() + ' e costuma acompanhar notícias por ' + noticias.toLowerCase() + '. ';
+
+      if (confere === 'sim') {
+        mensagem += 'Muito bom que você procura verificar as informações antes de confiar nelas.';
+      } else if (confere === 'as-vezes') {
+        mensagem += 'Vale a pena conferir mais vezes a fonte das notícias que aparecem para você.';
+      } else {
+        mensagem += 'Uma boa dica é conferir a fonte de uma notícia antes de compartilhar.';
+      }
+      resultado.textContent = mensagem;
+      resultado.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
